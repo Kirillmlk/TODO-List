@@ -28,8 +28,7 @@ TODO лист — это удобный инструмент для записи
 2. База данных MySQL.
 
 Клонируйте репозиторий:
-git clone https://github.com/your_username/your_project.git
-
+git clone https://github.com/Kirillmlk/TODO-List
 Импортируйте базу данных из файла `database.sql` в вашу систему управления базами данных.
 
 Настройте подключение к базе данных в файле `config.php`.
