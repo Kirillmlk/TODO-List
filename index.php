@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title class="title">ToDo List</title>
+    <title class="title">ToDo</title>
 </head>
 <body>
 <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
@@ -35,7 +35,7 @@
                     <h4 class="my-0 fw-normal">Просто текст</h4>
                 </div>
                 <div class="card-body">
-                    <img src="" alt="">
+                    <img src="img/<?php echo ($i + 1)?>.jpg" class="img-thumbnail">
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>10 users included</li>
                         <li>2 GB of storage</li>
@@ -48,5 +48,13 @@
         <?php endfor; ?>
     </div>
 </div>
+<footer class="my-5 pt-5 text-body-secondary text-center text-small">
+    <p class="mb-1">© 2017–2024 Company Name</p>
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Privacy</a></li>
+        <li class="list-inline-item"><a href="#">Terms</a></li>
+        <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+</footer>
 </body>
 </html>
